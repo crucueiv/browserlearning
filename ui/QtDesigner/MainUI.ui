@@ -23,14 +23,7 @@
       <height>781</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="Line" name="line">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-     </item>
+    <layout class="QVBoxLayout" name="mainLayout">
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
@@ -53,7 +46,11 @@
       </layout>
      </item>
      <item>
-      <widget class="QTextEdit" name="content_area"/>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
